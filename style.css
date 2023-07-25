@@ -1,0 +1,75 @@
+
+body {
+  background:lightblue;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 10px;
+  border-radius: 1em;
+  height: 450px;
+  width: 350px;
+  margin: auto;
+  background-color: #191b28;
+  box-shadow: rgba(0, 0, 0, 0.71) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.button {
+  width: 66px;
+  padding:20px ;
+  margin: 0 3px;
+  border :2px solid black;
+  font-size: 25px;
+  border-radius: rem;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+}
+
+.row {
+  margin: 8px 0;
+}
+.row input {
+  font-family: 'Times New Roman', Times, serif;
+  text-align:end;
+  width: 222px;
+  font-size: 30px;
+  margin: 0;
+  padding: 15px 0;
+  border: 2px solid black;
+  border-radius: 7px;
+}
+.text{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: aliceblue;
+}
+.bg-red{
+  background-color: red;
+}
+
+.mx-auto{
+  margin: auto;
+}
+
+.flex {
+display: flex;
+}
+.flex-col{
+  flex-direction: column;
+}
+.items-center{
+  align-items: center;
+}
+
+.clear{
+  background-color: rgb(210, 30, 30);
+  border-radius: 50px;
+}
+.equal{
+  background-color: rgb(203, 208, 54);
+}
+
+.operation{
+  background-color: rgb(21, 28, 166);
+}
